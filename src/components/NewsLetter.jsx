@@ -1,8 +1,8 @@
 export default function NewsLetter() {
   return (
-    <div className="w-full bg-gray-50 py-6 px-4 my-6">
-      <div className="max-w-6xl mx-auto">
-        {/* Newsletter subscription section */}
+    <section className="w-full bg-gray-50 py-6 px-4 my-6">
+      <div className="container mx-auto">
+        {/* Newsletter section */}
         <div className="bg-black text-white rounded-full flex flex-col sm:flex-row items-center justify-between p-4 sm:p-6">
           <div className="font-bold text-lg sm:text-xl ml-2">
             Join Our Newsletter
@@ -81,6 +81,6 @@ export default function NewsLetter() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

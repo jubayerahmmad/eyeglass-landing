@@ -165,14 +165,14 @@ const Header = () => {
       {/* Mobile Menu*/}
 
       <div
-        className={`lg:hidden absolute top-full left-0 w-full bg-white shadow-lg border-t border-gray-200 transition-all duration-300 ease-in-out ${
+        className={`lg:hidden absolute top-full z-50 left-0 w-full bg-white shadow-lg border-t border-gray-200 transition-all duration-300 ease-in-out ${
           isMobileMenuOpen
             ? "max-h-screen opacity-100"
             : "max-h-0 opacity-0 overflow-hidden"
         }`}
       >
         <nav className="flex flex-col p-4 space-y-3 text-gray-700">
-          {/* Mobile Navigation Links */}
+          {/* Mobile Nav Links */}
           <a href="#" className="hover:text-cyan-600 font-medium">
             Home
           </a>
@@ -199,9 +199,12 @@ const Header = () => {
             <IoChevronDown />
           </button>
 
-          <button className="bg-cyan-600 text-white w-full px-4 py-2 rounded-md flex items-center justify-center space-x-2 text-sm hover:bg-cyan-700 mt-2">
+          <button className="bg-gray-800 text-white px-10 py-4 rounded-tr-[4rem] rounded-bl-[4rem] rounded-tl-2xl rounded-br-2xl flex items-center space-x-2 text-sm hover:bg-gray-700 cursor-pointer">
             <FiDownload />
-            <span>Download App</span>
+            <div className="text-left leading-tight">
+              <p className="text-xs font-semibold">Get 50% off on the App</p>
+              <p className="text-xs">Download Now</p>
+            </div>
           </button>
 
           <div className="flex justify-between items-center pt-4 text-sm">

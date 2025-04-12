@@ -1,6 +1,6 @@
 const BannerSidebar = () => {
   return (
-    <div className="text-center mx-6 lg:w-64 bg-white rounded-md p-4 shadow-xl">
+    <div className="text-center mx-6 w-1/2 lg:w-64 bg-white rounded-xl p-4 shadow-xl">
       <ul className="space-y-4">
         <li className="text-gray-600">Police</li>
         <li className="text-gray-600">Gucci</li>
