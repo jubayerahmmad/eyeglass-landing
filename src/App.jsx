@@ -3,6 +3,7 @@ import AllProduct from "./components/AllProduct/AllProduct";
 import BestSelling from "./components/BestSelling/BestSelling";
 import Discounted from "./components/Discounted/Discounted";
 import EyeglassCategories from "./components/EyeglassCategories/EyeglassCategories";
+import FlashSale from "./components/FlashSale/FlashSale";
 import Footer from "./components/Footer";
 import Header from "./components/Header/Header";
 import HeroCarousel from "./components/HeroCarousel/HeroCarousel";
@@ -15,6 +16,7 @@ function App() {
       <Header />
       <HeroCarousel />
       <EyeglassCategories />
+      <FlashSale />
       <AllProduct />
       <BestSelling />
       <Discounted />
