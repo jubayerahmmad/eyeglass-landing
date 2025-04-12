@@ -6,6 +6,7 @@ import {
   FaYoutube,
 } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
+import { SlEyeglass } from "react-icons/sl";
 
 export default function Footer() {
   return (
@@ -15,8 +16,8 @@ export default function Footer() {
           {/* Company Info Section */}
           <div className="space-y-6">
             <div className="mb-8">
-              <p className="flex text-3xl font-bold items-center">
-                try<span className="text-cyan-500">Now</span>
+              <p className="flex gap-1 text-3xl font-bold items-center">
+                <SlEyeglass /> try<span className="text-cyan-500">Now</span>
               </p>
             </div>
 

@@ -9,6 +9,7 @@ import {
   FiDownload,
   FiMenu,
 } from "react-icons/fi";
+import { SlEyeglass } from "react-icons/sl";
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -52,10 +53,14 @@ const Header = () => {
         <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center space-y-4 lg:space-y-0 lg:space-x-8">
           <div className="flex justify-between items-center w-full">
             {/* Logo */}
-            <div className="text-3xl font-bold cursor-pointer flex-shrink-0">
-              {/* <span className="text-cyan-600">👓</span> */}
-              <span className="text-gray-800">try</span>
-              <span className="text-cyan-500">Now</span>
+            <div className="text-3xl font-bold cursor-pointer flex items-center gap-2">
+              <span className="">
+                <SlEyeglass />
+              </span>
+              <p>
+                <span className="text-gray-800">try</span>
+                <span className="text-cyan-500">Now</span>
+              </p>
             </div>
 
             {/* Mobile Icons */}

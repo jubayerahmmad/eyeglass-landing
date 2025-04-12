@@ -4,3 +4,15 @@
 body {
   font-family: "DM Sans", sans-serif;
 }
+.slick-prev:before,
+.slick-next:before {
+  padding: 2px;
+  color: #333 !important; /* Change to any color you want */
+}
+
+/* You can also customize the hover state */
+.slick-prev:hover:before,
+.slick-next:hover:before {
+  padding: 2px;
+  color: #555 !important;
+}
